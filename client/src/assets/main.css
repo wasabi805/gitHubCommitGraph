@@ -1,0 +1,74 @@
+.App {
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+}
+.Main{
+
+}
+
+/*GET YOUR FLEX GAME UP*/
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Mastering_Wrapping_of_Flex_Items*/
+.grid-wrapper{
+    position: relative;
+    background-color : #ccc;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 10px;
+    width: 21px;
+    height: 15px;
+}
+
+.display-month-wrapper{
+    width: 100%;
+}
+.display-month-item{
+
+}
+
+.all-days-wrapper{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color : #ccc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.single-day{
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 10px;
+    /*width: 15px;*/
+    /*height: 15px;*/
+}
+
+.header-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/*.nav-bar{*/
+  /*background-color: #f2f2f2;*/
+  /*height: 3em;*/
+/*}*/
+
+/*.nav-link-wrapper{*/
+
+/*}*/
+/*.nav-bar li{*/
+  /*width: 8em;*/
+  /*display: inline-block;*/
+  /*list-style: none;*/
+  /*margin: 0 auto;*/
+/*}*/
